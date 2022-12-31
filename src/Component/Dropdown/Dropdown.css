@@ -1,0 +1,28 @@
+.dropdown {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdownbtn {
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown-content {
+    min-width: 160px;
+    background-color:rgba(225, 225, 225, 0.8);
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    position: absolute;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+    display: none;
+}
+
+.dropdown-content > div {
+    font-size: large;
+}
+.show {
+    display: block;
+  }
